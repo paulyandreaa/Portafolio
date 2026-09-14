@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Paulina Sánchez López</title>
+    
+ 
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Paulina S.L.</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#caso-estudio">Caso de Estudio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Inicio -->
+    <header id="inicio" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hola, soy <span class="highlight">Paulina Andrea Sánchez López</span></h1>
+                <h2>Bootcamp Desarrollo de Aplicaciones Full Stack Java Trainee</h2>
+                <p>Cada proyecto es una oportunidad para aprender y crecer.</p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#contacto" class="btn btn-secondary">Contáctame</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://ui-avatars.com/api/?name=Paulina+Sanchez&background=0D8ABC&color=fff&size=300" alt="Foto de Paulina Sánchez">
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <p>Soy Paulina Andrea Sánchez López, desarrolladora Full Stack Java en formación, actualmente culminando mi Bootcamp de Desarrollo de Aplicaciones. Mi enfoque está en la creación de soluciones tecnológicas eficientes, escalables y centradas en el usuario, combinando la lógica robusta del backend con interfaces de frontend intuitivas y accesibles.</p>
+                <p>Durante mi formación, he adquirido conocimientos sólidos en Java, bases de datos relacionales (SQL), metodologías ágiles (Scrum) y buenas prácticas de desarrollo de software. Me apasiona transformar ideas en productos digitales funcionales, documentando procesos y colaborando activamente en equipos interdisciplinarios para alcanzar los objetivos del proyecto.</p>
+                <p>Me motiva el aprendizaje continuo y la adaptación a nuevas tecnologías, especialmente en el ecosistema de la nube y la transformación digital. Busco una oportunidad como Trainee o Junior donde pueda aportar mi curiosidad, compromiso y habilidades técnicas para generar impacto real, mientras sigo creciendo profesionalmente en un entorno dinámico e innovador.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fab fa-java"></i><h3>Java</h3></div>
+                <div class="skill-card"><i class="fas fa-database"></i><h3>SQL / Bases de Datos</h3></div>
+                <div class="skill-card"><i class="fab fa-html5"></i><h3>HTML5 & CSS3</h3></div>
+                <div class="skill-card"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
+                <div class="skill-card"><i class="fab fa-bootstrap"></i><h3>Bootstrap</h3></div>
+                <div class="skill-card"><i class="fas fa-leaf"></i><h3>Spring Boot</h3></div>
+                <div class="skill-card"><i class="fab fa-git-alt"></i><h3>Git & GitHub</h3></div>
+                <div class="skill-card"><i class="fas fa-tasks"></i><h3>Metodologías Ágiles</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section">
+        <div class="container">
+            <h2 class="section-title">Proyectos del Curso</h2>
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1: Alke Wallet (BASE DE DATOS) -->
+                <div class="project-card">
+                    <img src="../assets/img/alkewallet1.JPG" alt="Alke Wallet - Base de Datos">
+                    <div class="project-info">
+                        <h3>Alke Wallet - Sistema de Base de Datos</h3>
+                        <p>Diseño e implementación de una base de datos relacional para una wallet fintech. Creación del modelo entidad-relación, definición de tablas (Usuario, Transacción, Moneda) con claves primarias y foráneas, implementación de consultas SQL complejas (JOINs, subconsultas) y aplicación de principios ACID para garantizar la integridad de las transacciones.</p>
+                        <div class="tech-stack">
+                            <span>MySQL</span>
+                            <span>SQL</span>
+                            <span>DDL / DML</span>
+                            <span>Modelo ER</span>
+                            <span>ACID</span>
+                        </div>
+                       
+                        <a href="https://github.com/paulyandreaa/alke-wallet-db" class="btn-link">Ver en GitHub <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: Biblioteca Digital UNTEC (JAVA EE) -->
+                <div class="project-card">
+                    <img src="../assets/img/bibliotecadigital1.JPG" alt="Biblioteca Digital UNTEC">
+                    <div class="project-info">
+                        <h3>Biblioteca Digital UNTEC</h3>
+                        <p>Aplicación web dinámica basada en Java EE para la gestión de libros, usuarios y préstamos de una biblioteca universitaria. Implementa el patrón MVC con JSP, Servlets y capa DAO para acceso a datos, permitiendo consultas, préstamos y devoluciones online con gestión segura de sesiones de usuario.</p>
+                        <div class="tech-stack">
+                            <span>Java EE</span>
+                            <span>JSP</span>
+                            <span>Servlets</span>
+                            <span>JDBC</span>
+                            <span>JSTL</span>
+                            <span>MVC</span>
+                            <span>Apache Tomcat</span>
+                        </div>
+                        
+                        <a href="https://github.com/paulyandreaa/biblioteca-untec" class="btn-link">Ver en GitHub <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3: SpringEduManager (SPRING BOOT) -->
+                <div class="project-card">
+                    <img src="../assets/img/edumanager1.JPG" alt="SpringEduManager">
+                    <div class="project-info">
+                        <h3>SpringEduManager - Gestión Académica</h3>
+                        <p>Aplicación web educativa desarrollada con Spring Boot para centralizar la gestión académica. Implementa control de acceso basado en roles (RBAC) con Spring Security: únicamente los administradores pueden registrar alumnos, asignarlos a la carrera, gestionar su estado de matrícula y administrar todos sus datos. Los estudiantes tienen acceso restringido de solo lectura para consultar su información.</p>
+                        <div class="tech-stack">
+                            <span>Spring Boot</span>
+                            <span>Spring MVC</span>
+                            <span>Spring Data JPA</span>
+                            <span>Spring Security</span>
+                            <span>REST API</span>
+                            <span>RBAC</span>
+                            <span>Java</span>
+                        </div>
+                        
+                        <a href="https://github.com/paulyandreaa/spring-edu-manager" class="btn-link">Ver en GitHub <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Caso de Estudio Destacado (VERSIÓN BASE DE DATOS - ALKE WALLET) -->
+    <section id="caso-estudio" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Caso de Estudio Destacado</h2>
+            <div class="case-study">
+                <h3>🏆 Alke Wallet - Diseño de Base de Datos Relacional</h3>
+                
+                <div class="case-grid">
+                    <div class="case-item">
+                        <h4><i class="fas fa-bullseye"></i> Descripción de la actividad</h4>
+                        <p>Diseño e implementación completa de una base de datos relacional para gestionar una wallet digital, incluyendo modelado ER, creación de tablas, relaciones y consultas SQL para operaciones financieras.</p>
+                    </div>
+                    <div class="case-item">
+                        <h4><i class="fas fa-mountain"></i> Desafío principal</h4>
+                        <p>Garantizar la integridad referencial y la coherencia de los datos financieros mediante un diseño normalizado (3FN), aplicación de principios ACID y manejo adecuado de transacciones con múltiples usuarios.</p>
+                    </div>
+                    <div class="case-item">
+                        <h4><i class="fas fa-lightbulb"></i> Solución propuesta</h4>
+                        <p>Creé un modelo ER con 3 entidades principales (Usuario, Transacción, Moneda), implementé claves foráneas para mantener la integridad, desarrollé consultas SQL optimizadas con JOINs y subconsultas, y apliqué transacciones con COMMIT/ROLLBACK.</p>
+                    </div>
+                    <div class="case-item">
+                        <h4><i class="fas fa-tools"></i> Herramientas técnicas</h4>
+                        <p>MySQL 8, SQLTools (VS Code), SQL Online, DDL (CREATE, ALTER), DML (INSERT, UPDATE, DELETE), SELECT con JOINs, modelo entidad-relación, normalización 3FN.</p>
+                    </div>
+                    <div class="case-item">
+                        <h4><i class="fas fa-graduation-cap"></i> Principales aprendizajes</h4>
+                        <p>Comprendí la importancia del diseño de bases de datos para la integridad de los datos, aprendí a modelar relaciones complejas, optimizar consultas y aplicar principios ACID en transacciones financieras críticas.</p>
+                    </div>
+                    <div class="case-item">
+                        <h4><i class="fas fa-chart-line"></i> Métricas de impacto</h4>
+                        <p>Base de datos 100% normalizada (3FN), 0 errores de integridad referencial, consultas optimizadas que permiten obtener historiales de transacciones en tiempo real, y transacciones atómicas garantizadas.</p>
+                    </div>
+                    <div class="case-item">
+                        <h4><i class="fas fa-code"></i> Habilidades técnicas aplicadas</h4>
+                        <p>Diseño de bases de datos relacionales, modelado ER, SQL (DDL/DML), normalización, integridad referencial, transacciones ACID, consultas complejas con JOINs y subconsultas.</p>
+                    </div>
+                    <div class="case-item">
+                        <h4><i class="fas fa-star"></i> Justificación de la elección</h4>
+                        <p>Elegí este proyecto porque representa mi primer acercamiento al diseño de bases de datos profesionales. Resolver un sistema financiero real me permitió demostrar mi capacidad para manejar datos críticos con integridad y eficiencia, habilidades esenciales para un desarrollador Full Stack.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="contact-text">¿Tienes una oportunidad o proyecto en mente? ¡Me encantaría conversar!</p>
+            <div class="contact-links">
+                <a href="mailto:paulinasanchezlop@gmail.com" class="contact-btn">
+                    <i class="fas fa-envelope"></i> paulinasanchezlop@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/paulinasanchezlopez-prp" target="_blank" class="contact-btn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <!-- ENLACE DE GITHUB ACTUALIZADO -->
+                <a href="https://github.com/paulyandreaa/Portafolio" target="_blank" class="contact-btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Paulina Andrea Sánchez López. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
